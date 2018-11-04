@@ -3,13 +3,24 @@
         "outDir": "./built/",
         "sourceMap": true,
         "strict": true,
-        "module": "es2015",
+        "module": "esnext",
         "moduleResolution": "node",
         "target": "es5",
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "lib": [
+          "dom",
+          "es5",
+          "es6",
+          "es7",
+          "es2015.promise"
+        ],
+        "pretty": true
     },
     "include": [
         "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
     ],
     "paths": {
         "@/*": [

@@ -6,6 +6,7 @@
   "author": "lirawx <lira_wx@outlook.com> (https://lirawx.cn/)",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.12.2",
     "autoprefixer": "^9.3.1",
     "clean-webpack-plugin": "^0.1.19",
     "connect-history-api-fallback": "^1.5.0",
@@ -28,6 +29,7 @@
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.17",
     "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1",
     "webpack": "^4.24.0",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",

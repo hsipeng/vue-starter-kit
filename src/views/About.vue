@@ -17,5 +17,7 @@ import HelloDecoratorComponent from "@/components/HelloDecorator.vue";
     HelloDecoratorComponent
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  name: String = 'world'
+}
 </script>
